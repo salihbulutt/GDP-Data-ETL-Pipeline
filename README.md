@@ -6,17 +6,17 @@ A robust ETL (Extract, Transform, Load) pipeline that scrapes GDP data from Wiki
 
 - [Overview](#dart-overview)
 - [Features](#sparkles-features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Pipeline Workflow](#pipeline-workflow)
-- [Configuration](#configuration)
-- [Output Files](#output-files)
-- [Query Examples](#query-examples)
-- [Logging](#logging)
-- [Contributing](#contributing)
-- [License](#license)
+- [Prerequisites](#package-prerequisites)
+- [Installation](#rocket-installation)
+- [Usage](#computer-usage)
+- [Project Structure](#file_folder-project-structure)
+- [Pipeline Workflow](#arrows_counterclockwise-pipeline-workflow)
+- [Configuration](#gear-configuration)
+- [Output Files](#bar_chart-output-files)
+- [Query Examples](#mag-query-examples)
+- [Logging](#memo-logging)
+- [Contributing](#handshake-contributing)
+- [License](#page_facing_up-license)
 
 ## :dart: Overview
 
@@ -35,12 +35,12 @@ This project demonstrates a complete ETL pipeline that:
 - ✅ SQL query execution capability
 - ✅ Error handling and data validation
 
-## 📦 Prerequisites
+## :package: Prerequisites
 
 - Python 3.7 or higher
 - pip (Python package manager)
 
-## 🚀 Installation
+## :rocket: Installation
 
 ### Step 1: Clone the Repository
 
@@ -69,7 +69,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
+## :computer: Usage
 
 ### Basic Usage
 
@@ -83,7 +83,7 @@ python etl_pipeline.py
 
 You can modify the configuration in `config.py` or pass parameters directly in the script.
 
-## 📁 Project Structure
+## :file_folder: Project Structure
 
 ```
 gdp-etl-pipeline/
@@ -106,7 +106,7 @@ gdp-etl-pipeline/
     └── test_etl.py
 ```
 
-## 🔄 Pipeline Workflow
+## :arrows_counterclockwise: Pipeline Workflow
 
 ```
 1. Extract
@@ -130,7 +130,7 @@ gdp-etl-pipeline/
 5. Log All Steps
 ```
 
-## ⚙️ Configuration
+## :gear: Configuration
 
 Edit `config.py` to customize:
 
@@ -149,7 +149,7 @@ TABLE_NAME = 'Countries_by_GDP'
 LOG_FILE = './logs/etl_project_log.txt'
 ```
 
-## 📊 Output Files
+## :bar_chart: Output Files
 
 ### CSV Output
 Located at: `data/Countries_by_GDP.csv`
@@ -167,7 +167,7 @@ Table: `Countries_by_GDP`
 - Country (TEXT)
 - GDP_USD_billions (REAL)
 
-## 🔍 Query Examples
+## :mag: Query Examples
 
 The pipeline includes a sample query. You can add more:
 
@@ -182,7 +182,7 @@ query = "SELECT * FROM Countries_by_GDP ORDER BY GDP_USD_billions DESC LIMIT 10"
 query = "SELECT AVG(GDP_USD_billions) as avg_gdp FROM Countries_by_GDP"
 ```
 
-## 📝 Logging
+## :memo: Logging
 
 All operations are logged with timestamps in `logs/etl_project_log.txt`:
 
@@ -193,7 +193,7 @@ All operations are logged with timestamps in `logs/etl_project_log.txt`:
 ...
 ```
 
-## 🤝 Contributing
+## :handshake: Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -203,7 +203,7 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+## :page_facing_up: License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
