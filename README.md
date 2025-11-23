@@ -5,7 +5,7 @@ A robust ETL (Extract, Transform, Load) pipeline that scrapes GDP data from Wiki
 ## 📋 Table of Contents
 
 - [Overview](#dart-overview)
-- [Features](#features)
+- [Features](#sparkles-features)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -26,7 +26,7 @@ This project demonstrates a complete ETL pipeline that:
 - **Loads** the processed data into CSV and SQLite database
 - **Logs** every step of the process with timestamps
 
-## ✨ Features
+## :sparkles: Features
 
 - ✅ Web scraping with Beautiful Soup
 - ✅ Data transformation and cleaning with Pandas
