@@ -1,6 +1,5 @@
-# GDP Data ETL Pipeline
-
-A robust ETL (Extract, Transform, Load) pipeline that scrapes GDP data from Wikipedia, transforms it, and stores it in both CSV and SQLite database formats.
+# :bank: Largest Banks ETL Pipeline
+A Python-based ETL (Extract, Transform, Load) pipeline that scrapes data about the world's largest banks from Wikipedia, transforms the market capitalization values into multiple currencies, and stores the results in both CSV and SQLite database formats.
 
 ## 📋 Table of Contents
 
@@ -231,4 +230,4 @@ Your Name
 
 **⭐ If you find this project helpful, please consider giving it a star!**
 
-:arrow_up: [Back to the Top](#gdp-data-etl-pipeline)
+:arrow_up: [Back to the Top](#:bank:-largest-banks-etl-pipeline)
