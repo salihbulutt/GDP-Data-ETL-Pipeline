@@ -8,7 +8,7 @@ A Python-based ETL (Extract, Transform, Load) pipeline that scrapes data about t
 - [Prerequisites](#package-prerequisites)
 - [Installation](#rocket-installation)
 - [Usage](#computer-usage)
-- [Project Structure](#file_folder-project-structure)
+- [Data Source](#file_folder-data-source)
 - [Pipeline Workflow](#arrows_counterclockwise-pipeline-workflow)
 - [Configuration](#gear-configuration)
 - [Output Files](#bar_chart-output-files)
@@ -82,7 +82,7 @@ python etl_pipeline.py
 
 You can modify the configuration in `config.py` or pass parameters directly in the script.
 
-## :file_folder: Project Structure
+## :file_folder: Data Source
 
 ```
 gdp-etl-pipeline/
