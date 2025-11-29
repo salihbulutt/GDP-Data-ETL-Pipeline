@@ -8,7 +8,7 @@ A Python-based ETL (Extract, Transform, Load) pipeline that scrapes data about t
 - [Prerequisites](#package-prerequisites)
 - [Installation](#rocket-installation)
 - [Usage](#computer-usage)
-- [Data Source](#file_folder-data-source)
+- [Project Structure](#file_folder-project-structure)
 - [Pipeline Workflow](#arrows_counterclockwise-pipeline-workflow)
 - [Configuration](#gear-configuration)
 - [Output Files](#bar_chart-output-files)
@@ -82,27 +82,20 @@ python etl_pipeline.py
 
 You can modify the configuration in `config.py` or pass parameters directly in the script.
 
-## :file_folder: Data Source
+## :file_folder: Project Structure
 
 ```
-gdp-etl-pipeline/
+largest-banks-etl/
 │
-├── etl_pipeline.py           # Main ETL script
-├── config.py                 # Configuration settings
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project documentation
-├── .gitignore               # Git ignore rules
-├── LICENSE                  # License file
-│
-├── data/                    # Output directory (created on first run)
-│   ├── Countries_by_GDP.csv
-│   └── World_Economies.db
-│
-├── logs/                    # Logs directory (created on first run)
-│   └── etl_project_log.txt
-│
-└── tests/                   # Unit tests (optional)
-    └── test_etl.py
+├── banks_project.py          # Main ETL script
+├── exchange_rate.csv          # Currency exchange rates input file
+├── Largest_banks_data.csv     # Output CSV file (generated)
+├── Banks.db                   # SQLite database (generated)
+├── code_log.txt              # Execution log (generated)
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+├── .gitignore                # Git ignore file
+└── LICENSE                    # License file
 ```
 
 ## :arrows_counterclockwise: Pipeline Workflow
