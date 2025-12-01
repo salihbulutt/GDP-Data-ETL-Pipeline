@@ -114,15 +114,15 @@ This is an archived snapshot ensuring data consistency and reliability.
 ```
 largest-banks-etl/
 │
-├── banks_project.py          # Main ETL script
+├── banks_project.py           # Main ETL script
 ├── dashboard.py               # Dashboard
 ├── exchange_rate.csv          # Currency exchange rates input file
 ├── Largest_banks_data.csv     # Output CSV file (generated)
 ├── Banks.db                   # SQLite database (generated)
-├── code_log.txt              # Execution log (generated)
+├── code_log.txt               # Execution log (generated)
 ├── requirements.txt           # Python dependencies
 ├── README.md                  # Project documentation
-├── .gitignore                # Git ignore file
+├── .gitignore                 # Git ignore file
 └── LICENSE                    # License file
 ```
 
