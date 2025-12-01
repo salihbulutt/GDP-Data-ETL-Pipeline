@@ -11,7 +11,8 @@ A Python-based ETL (Extract, Transform, Load) pipeline that scrapes data about t
 - [Data Source](#globe-with-meridians-data-source)
 - [Project Structure](#file_folder-project-structure)
 - [Pipeline Workflow](#arrows_counterclockwise-pipeline-workflow)
-- [Output Files](#bar_chart-output-files)
+- [Output Files](#card-file-box-output-files)
+- [Interactive Dashboard](#bar-chart-interactive-dashboard)
 - [Query Examples](#mag-query-examples)
 - [Logging](#memo-logging)
 - [Contributing](#handshake-contributing)
@@ -150,7 +151,7 @@ largest-banks-etl/
 5. Log All Steps
 ```
 
-## :bar_chart: Output Files
+## :card_file_box: Output Files
 
 ### CSV Output (`Largest_banks_data.csv`)
 
@@ -164,6 +165,28 @@ largest-banks-etl/
 Table: `Largest_banks`
 - Contains the same columns as CSV
 - Supports SQL queries for data analysis
+
+## :bar_chart: Interactive Dashboard
+
+View the live dashboard: **[Click Here](https://salihbulutt.github.io/largest-banks-etl/)**
+
+### Generate Dashboard Locally
+```bash
+# Run ETL pipeline
+python banks_project.py
+
+# Create dashboard
+python dashboard.py
+
+# Open dashboard.html in your browser
+```
+
+### Dashboard Features:
+- 📊 Multiple interactive charts
+- 📈 Real-time data visualization
+- 💱 Multi-currency comparison
+- 📋 Detailed data table
+- 🎨 Professional design
 
 ## :mag: Query Examples
 
