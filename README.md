@@ -117,6 +117,7 @@ largest-banks-etl/
 │
 ├── banks_project.py           # Main ETL script
 ├── dashboard.py               # Dashboard
+├── update_dashboard.py        # Updates Dashboard
 ├── exchange_rate.csv          # Currency exchange rates input file
 ├── Largest_banks_data.csv     # Output CSV file (generated)
 ├── Banks.db                   # SQLite database (generated)
